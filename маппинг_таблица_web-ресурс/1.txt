@@ -1,0 +1,294 @@
+Из файла: .\correlation_rules\mitre_attck_comm_and_ctrl\IIS_RDP_or_SMB_Tunneling\metainfo.yaml
+Правило: IIS_RDP_or_SMB_Tunneling
+Tactic: command-and-control
+ID: T1572
+========================================
+Из файла: .\correlation_rules\mitre_attck_comm_and_ctrl\RDP_Tunneling\metainfo.yaml
+Правило: RDP_Tunneling
+Tactic: command-and-control
+ID: T1572
+========================================
+Из файла: .\correlation_rules\mitre_attck_comm_and_ctrl\RDP_Tunneling_via_SSH_5156\metainfo.yaml
+Правило: RDP_Tunneling_via_SSH_5156
+Tactic: command-and-control
+ID: T1572
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\An_attempt_was_made_to_lsass_process\metainfo.yaml
+Правило: An_attempt_was_made_to_lsass_process
+Tactic: credential-access
+ID: T1003.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Chrome_firefox_opera_cred_read\metainfo.yaml
+Правило: Chrome_firefox_opera_cred_read
+Tactic: credential-access
+ID: T1555.003
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Credentials_MiniDumpWriteDump_Lsass\metainfo.yaml
+Правило: Credentials_MiniDumpWriteDump_Lsass
+Tactic: credential-access
+ID: T1003.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\DCSync\metainfo.yaml
+Правило: DCSync
+Tactic: credential-access
+ID: T1003.006
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Dump_lsass_via_process_access\metainfo.yaml
+Правило: Dump_lsass_via_process_access
+Tactic: credential-access
+ID: T1003.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\KeePass_CredDump\metainfo.yaml
+Правило: KeePass_CredDump
+Tactic: credential-access
+ID: T1555.005
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Keepass_Key_Dump_Via_KeeThief\metainfo.yaml
+Правило: Keepass_Key_Dump_Via_KeeThief
+Tactic: credential-access
+ID: T1555
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Kerberos_pwd_spraying\metainfo.yaml
+Правило: Kerberos_pwd_spraying
+Tactic: credential_access
+ID: T1110.003
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\LSASS_ProcDump\metainfo.yaml
+Правило: LSASS_ProcDump
+Tactic: credential-access
+ID: T1003.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Mimikatz\metainfo.yaml
+Правило: Mimikatz
+Tactic: credential_access
+ID: T1003
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Mimikatz_Memssp_Default_Log_Detected\metainfo.yaml
+Правило: Mimikatz_Memssp_Default_Log_Detected
+Tactic: credential-access
+ID: T1003
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Phishing_windows_credentials_powershell_scriptblock\metainfo.yaml
+Правило: Phishing_windows_credentials_powershell_scriptblock
+Tactic: credential-access
+ID: T1056
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\PPL_Bypass_via_PPLDump_Tool\metainfo.yaml
+Правило: PPL_Bypass_via_PPLDump_Tool
+Tactic: credential-access
+ID: T1003.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_cred_access\Remote_registry_access\metainfo.yaml
+Правило: Remote_registry_access
+Tactic: credential-access
+ID: T1003.002
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Change_powershell_policy_registry\metainfo.yaml
+Правило: Change_powershell_policy_registry
+Tactic: defense-evasion
+ID: T1112
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Clearing_eventlog\metainfo.yaml
+Правило: Tasks_actions
+Tactic: defense-evasion
+ID: T1070.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\DCShadow_Attack\metainfo.yaml
+Правило: DCShadow_Attack
+Tactic: defense-evasion
+ID: T1207
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Detect_Fake_ComputerAccount\metainfo.yaml
+Правило: Detect_Fake_ComputerAccount
+Tactic: defense-evasion
+ID: T1036
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Detect_hiding_files_via_attrib_cmdlet\metainfo.yaml
+Правило: Detect_hiding_files_via_attrib_cmdlet
+Tactic: defense-evasion
+ID: T1564.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Detect_lolbin_pcalua_exec\metainfo.yaml
+Правило: Detect_lolbin_pcalua_exec
+Tactic: defense-evasion
+ID: T1202
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\ImageLoad_from_Network_Share_to_LSASS\metainfo.yaml
+Правило: ImageLoad_from_Network_Share_to_LSASS
+Tactic: defense-evasion
+ID: T1556
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\ParentPid_Spoofing\metainfo.yaml
+Правило: ParentPid_Spoofing
+Tactic: defense-evasion
+ID: T1134.004
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Portproxy_netsh\metainfo.yaml
+Правило: Portforward_netsh
+Tactic: command-and-control
+ID: T1090
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\RDP_settings_tampering\metainfo.yaml
+Правило: RDP_settings_tampering
+Tactic: defense-evasion
+ID: T1112
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\ReverseShell_created_via_PEInjection\metainfo.yaml
+Правило: ReverseShell_created_via_PEInjection
+Tactic: defense-evasion
+ID: T1620
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Subrule_ParentPid_Spoofing\metainfo.yaml
+Правило: Subrule_ParentPid_Spoofing
+Tactic: defense-evasion
+ID: T1134.004
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Suspend_Process\metainfo.yaml
+Правило: Suspend_prpcess
+Tactic: defense-evasion
+ID: T1055
+========================================
+Из файла: .\correlation_rules\mitre_attck_defense_evasion\Suspicious_Explorer_Injection\metainfo.yaml
+Правило: Suspicious_Explorer_Injection
+Tactic: defense-evasion
+ID: T1055
+========================================
+Из файла: .\correlation_rules\mitre_attck_discovery\Bloodhound\metainfo.yaml
+Правило: Bloodhound
+Tactic: discovery
+ID: T1087.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_discovery\Enumeration_Users_In_Groups\metainfo.yaml
+Правило: Enumeration_Users_In_Groups
+Не удалось найти две строки после ATTACK:
+========================================
+Из файла: .\correlation_rules\mitre_attck_discovery\Local_Groups_Enumeration_Discovery\metainfo.yaml
+Правило: Local_Groups_Enumeration_Discovery
+Tactic: discovery
+ID: T1087.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_execution\Detect_execution_imageload_wuauclt_lolbas\metainfo.yaml
+Правило: Detect_execution_imageload_wuauclt_lolbas
+Tactic: execution
+ID: T1218
+========================================
+Из файла: .\correlation_rules\mitre_attck_execution\Schtasks_Commandline\metainfo.yaml
+Правило: Schtasks_Commandline
+Tactic: execution
+ID: T1059
+========================================
+Из файла: .\correlation_rules\mitre_attck_execution\Start_process_as_vshadow_child\metainfo.yaml
+Правило: Start_process_as_vshadow_child
+Tactic: execution
+ID: T1569.002
+========================================
+Из файла: .\correlation_rules\mitre_attck_execution\VSSVC_service_state_changed\metainfo.yaml
+Правило: VSSVC_service_state_changed
+Tactic: execution
+ID: T1569.002
+========================================
+Из файла: .\correlation_rules\mitre_attck_execution\XP_Cmdshell_Usage\metainfo.yaml
+Правило: XP_Cmdshell_Usage
+Tactic: execution
+ID: T0807
+========================================
+Из файла: .\correlation_rules\mitre_attck_initial_access\ProxyNotShell\metainfo.yaml
+Правило: ProxyNotShell
+Tactic: initial_access
+ID: T1190
+========================================
+Из файла: .\correlation_rules\mitre_attck_lat_move\Detect_MSHTA_LethalHTA\metainfo.yaml
+Правило: Detect_MSHTA_LethalHTA
+Tactic: lateral-movement
+ID: T1021.003
+========================================
+Из файла: .\correlation_rules\mitre_attck_lat_move\Impacket_WMIExec_Command_Executed\metainfo.yaml
+Правило: Impacket_WMIExec_Command_Executed
+Tactic: lateral-movement
+ID: T1021
+========================================
+Из файла: .\correlation_rules\mitre_attck_persist\Change_wmi_subscription\metainfo.yaml
+Правило: Change_wmi_subscription
+Tactic: persistence
+ID: T1546.003
+========================================
+Из файла: .\correlation_rules\mitre_attck_persist\Create_hidden_local_account\metainfo.yaml
+Правило: Create_hidden_local_account
+Tactic: persistence
+ID: T1136
+========================================
+Из файла: .\correlation_rules\mitre_attck_persist\Create_persist_via_Hidden_Run_key_value\metainfo.yaml
+Правило: Create_persist_via_Hidden_Run_key_value
+Tactic: persistence
+ID: T1547
+========================================
+Из файла: .\correlation_rules\mitre_attck_persist\Create_persist_via_WinlogonShell\metainfo.yaml
+Правило: Create_persist_via_WinlogonShell
+Tactic: persistence
+ID: T1547.004
+========================================
+Из файла: .\correlation_rules\mitre_attck_persist\DCSync_prepare_Add_replicatation_rights_to_Account\metainfo.yaml
+Правило: DCSync_prepare_Add_replicatation_rights_to_Account
+Tactic: persistence
+ID: T1098
+========================================
+Из файла: .\correlation_rules\mitre_attck_persist\DSRM_Password_Changed\metainfo.yaml
+Правило: DSRM_Password_Changed
+Tactic: persistence
+ID: T1098
+========================================
+Из файла: .\correlation_rules\mitre_attck_persist\Use_persist_Start_process_via_WinlogonShell\metainfo.yaml
+Правило: Use_persist_Start_process_via_WinlogonShell
+Tactic: persistence
+ID: T1547.004
+========================================
+Из файла: .\correlation_rules\mitre_attck_persist\XP_Cmdshell_Enable\metainfo.yaml
+Правило: XP_Cmdshell_Enable
+Tactic: persistence
+ID: T1505.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\CreateProcessAsUser_Impersonation\metainfo.yaml
+Правило: CreateProcessAsUser_Impersonation
+Tactic: privilege-escalation
+ID: T1134.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\Detect_Pass_the_Hash_via_Mimikatz_local\metainfo.yaml
+Правило: Detect_Pass_the_Hash_via_Mimikatz_local
+Tactic: privilege-escalation
+ID: T1134
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\Named_Pipe_Impersonation_PrivEsc\metainfo.yaml
+Правило: Named_Pipe_Impersonation_PrivEsc
+Tactic: privilege_escalation
+ID: T1134.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\Potential_Privileged_Escalation_via_KrbRelayUp\metainfo.yaml
+Правило: Potential_Privileged_Escalation_via_KrbRelayUp
+Tactic: privilege-escalation
+ID: T1078.001
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\sAMAccountName_Spoofing\metainfo.yaml
+Правило: sAMAccountName_Spoofing
+Tactic: privilege-escalation
+ID: T1068
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\SeDebugPrivilege_Enabled\metainfo.yaml
+Правило: SeDebugPrivilege_Enabled
+Tactic: privilege-escalation
+ID: T1134
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\UACME_23_DismCore_Hijacking\metainfo.yaml
+Правило: UACME_23_DismCore_Hijacking
+Tactic: privilege-escalation
+ID: T1548
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\UAC_Bypass_Via_Consent\metainfo.yaml
+Правило: UAC_Bypass_Via_Consent
+Tactic: privilege-escalation
+ID: T1548.002
+========================================
+Из файла: .\correlation_rules\mitre_attck_priv_esc\Unquoted_Service_Path_Abuse\metainfo.yaml
+Правило: Unquoted_Service_Path_Abuse
+Tactic: privilege-escalation
+ID: T1574.009
+========================================
